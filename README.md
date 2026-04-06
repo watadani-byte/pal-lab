@@ -1,4 +1,34 @@
-# pal-lab
+# PAL LAB
+
+PAL LAB is a public research and governance initiative investigating persistence, identity drift, and reconstruction continuity in AI systems — and developing frameworks for governing what persistent anchor layers may stabilize.
+
+-----
+
+PAL LAB is a public research and governance initiative focused on persistence, drift, and continuity in AI systems.
+
+It began with a narrow operational problem: when a character or persona is established in one AI session, it tends to drift — across sessions, turns, and platforms. Reference images help. Prompt design helps. But neither, by itself, constitutes a governance framework.
+
+PAL (Persistent Anchor Layer) and CIP (Character Identity Protocol) are attempts to describe and govern these conditions. Neither is a finished solution. Both are working frameworks under continued development.
+
+As investigation continued, the problem widened. Persistence mechanisms that stabilize visual identity may also stabilize role, tone, and normative frame — for better or worse. That widening raised governance questions that visual continuity alone does not.
+
+PAL LAB is where those connected questions are investigated together.
+
+-----
+
+**PAL LAB focuses on:**
+
+- Identity drift and continuity failure across AI sessions
+- Anchor-bound reconstruction and the PAL hypothesis
+- Role drift, normative drift, and culturally bounded reconstruction
+- Contamination risk in persistent reference layers
+- Governance language and frameworks for AI persistence mechanisms
+- The relationship between continuity, stability, and accountability
+- Documentation and validation framing for PAL, CIP, and related frameworks
+
+*Full launch text and background: <docs/launch.md>*
+
+-----
 
 ## Overview
 
@@ -46,6 +76,9 @@ governance/
   asset_status_policy.md  — draft / active / deprecated の条件
   change_log_policy.md    — 変更理由・記録形式・監査証跡
   trust_rank_policy.md    — canonical / working / provisional / rejected
+
+docs/
+  launch.md               — Full launch text and background
 ```
 
 -----
