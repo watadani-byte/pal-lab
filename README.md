@@ -18,6 +18,22 @@ sequence meaning, and adoption decisions.
 
 -----
 
+## Status
+
+This repository is public and under active development.
+Core concepts are documented, but controlled validation
+remains pending across major claims.
+Readers should distinguish between canonical principles,
+working documents, and provisional extensions.
+
+This repository documents governance-oriented
+continuity research.
+It is not presented as a deployment guarantee,
+a misuse guide, or a claim of validated control
+over model internals.
+
+-----
+
 ## Repository Structure
 
 ```
@@ -104,10 +120,53 @@ docs/
 
 -----
 
-## Quick Start
+## How to Read This Repository
 
-1. `declarations/pal_declaration.md` を読む
-1. `pal/character_pal.md` と `pal/anti_drift.md` を読む
-1. `protocols/operational_protocol.md` の標準手順で生成を開始する
-1. 各ファイルの Status と Trust Rank を確認する
-   （active + canonical 以外は本番運用の基準点にしない）
+Recommended reading order:
+
+1. `declarations/pal_declaration.md`
+1. `pal/character_pal.md` and `pal/anti_drift.md`
+1. `protocols/operational_protocol.md`
+1. Relevant `governance/` and `persona/` documents
+   as needed
+
+-----
+
+## Attribution and Priority Note
+
+To the author’s knowledge, this repository contains
+the earliest explicit documentation of PAL as a
+continuity and governance framework, together with
+related terminology and operational distinctions
+developed in this research line.
+
+This includes:
+
+- **PAL** as a governance-oriented continuity layer
+- **PRL (PAL Reconnected Layer)** as a four-layer
+  operational control architecture
+- the persona layer hierarchy documented in
+  the `persona/` directory
+- the re-anchoring principle documented in
+  `declarations/pal_declaration.md`
+
+If you build on these concepts or use this terminology
+in your own work, appropriate attribution to this
+repository is requested and appreciated.
+
+-----
+
+## License
+
+Unless otherwise noted, repository documents are
+licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+— 2026 Hitoshi Watadani.
+
+If a subdirectory carries different licensing terms,
+those terms take precedence for that subdirectory.
+
+If implementation specifications or schema files
+are added in the future, those materials may be
+placed under separate license terms and will be
+noted accordingly.
