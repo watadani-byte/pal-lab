@@ -1,103 +1,66 @@
 # pal-lab
 
-A personal lab for PAL-based continuity experiments in generative image workflows.
-
 ## Overview
 
-**pal-lab** is a private research and practice repository for exploring PAL as a continuity system across image generation environments.
+PAL-based continuity framework for recalling the same person
+across changing conditions while controlling drift,
+sequence meaning, and adoption decisions.
 
-The goal is not only to recall the same character, but to test whether continuity can be preserved across multiple layers:
-
-- character
-- background
-- costume
-- sequence
-- style
-
-This repository treats continuity as something to be **constructed, observed, and governed**, not assumed.
-
-## Scope
-
-This repository is focused on practical PAL experiments such as:
-
-- recalling the same character across separate prompts
-- stabilizing a studio or environmental background
-- preserving costume identity across iterations
-- structuring multi-image sequences such as 起承転結
-- testing style transfer while retaining person identity
-- observing and documenting drift, failure, and recovery
-
-## Working Assumption
-
-PAL is handled here as a **continuity layer**, not as authority, truth, or legitimacy.
-
-In other words:
-
-- continuity is not correctness
-- persistence is not trust
-- stable reconstruction is not proof
-- recall is not identity by default
-
-Human judgment remains primary.
+-----
 
 ## Repository Structure
 
-```text
-declarations/
-pal/
-  characters/
-  backgrounds/
-  costumes/
-  sequences/
-  styles/
-experiments/
-notes/
-```
+    declarations/
+      pal_declaration.md        — PAL の定義・原則・適用範囲・ガバナンス宣言
 
-## Principles
+    pal/
+      character_pal.md          — 人物同一性の固定層
+      age_layer.md              — 年齢をまたぐ同一性の安定点層
+      anti_drift.md             — 禁止 drift の分類・停止条件・管理層
+      sequence_pal.md           — 複数枚の意味連続性の固定層
+      background_pal.md         — 場面・空間・光の固定層
+      costume_pal.md            — 衣装・小物・着用状態の固定層
+      style_pal.md              — 描画様式・質感の固定層
 
-### 1. Human judgment comes first
-Persistent material may support continuity, but it must never override current human instruction or evaluation.
+    persona/
+      aster_control_persona_pal.md  — 複数媒体をまたぐ制御人格 PAL
+      chatbot_persona_pal.md        — 対話 AI の人格固定層
+      agent_persona_pal.md          — 複数媒体・工程の主語統一層
+      governance_pal.md             — 継続性を実運用で統治する最上位層
 
-### 2. Continuity must be governed
-If PAL becomes useful, it must also remain bounded, revisable, and stoppable.
+    protocols/
+      operational_protocol.md            — 確認・遷移・停止・採用・圧縮の手順
+      prompt_protocol.md                 — プロンプト設計原則、記述順、長文 / 最適化 / 圧縮の基本仕様
+      modes_character_lock_vs_quality.md — キャラ固定優先 / 品質優先の記述モード
 
-### 3. Drift must be named
-Observed drift should be recorded whenever possible, including but not limited to:
+    notes/
+      motion_notes.md               — 静止画に時間感を与える演出規則
+      drift_cases.md                — 実例 drift の記録と工程別危険点
+      adoption_and_purge_policy.md  — 採用 / 不採用 / パージの判断基準
 
-- identity drift
-- cultural drift
-- background reinterpretation
-- costume drift
-- sequence collapse
-- style override
+-----
 
-### 4. Layers should be separable
-Character, background, costume, sequence, and style should be handled as distinct continuity layers whenever possible.
+## Priority Order
 
-### 5. Revision is expected
-PAL definitions are provisional. They are expected to be updated through use, conflict, and failure.
+1. Character PAL
+2. Sequence PAL
+3. Costume PAL
+4. Background PAL
+5. Style PAL
 
-## Current Focus
+-----
 
-The current phase is centered on:
+## Governance
 
-- character PAL
-- bridal sequence experiments
-- background stabilization
-- sequence continuity
-- priority and conflict handling between PAL layers
+`declarations/pal_declaration.md` — 原則・宣言・適用範囲
 
-## Notes
+`persona/governance_pal.md` — 実運用での統治層
+（continuity の権威化防止・停止権・rollback・採否管理）
 
-This is a personal lab repository.  
-It is intended for iterative experimentation, documentation, and revision.  
-Not all materials are meant to be final, public, or stable.
+-----
 
-## Suggested About Text
+## Quick Start
 
-PAL-based continuity experiments for character, background, costume, sequence, and style control across generative image workflows.
-
-## Suggested Topics
-
-`pal` `image-generation` `generative-ai` `character-consistency` `visual-continuity` `prompt-engineering` `sequence-design` `generative-art`
+1. `declarations/pal_declaration.md` を読む
+2. `pal/character_pal.md` と `pal/anti_drift.md` を読む
+3. `protocols/operational_protocol.md` の標準手順で生成を開始する
