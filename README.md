@@ -6,15 +6,21 @@ It investigates persistence, identity drift, and reconstruction continuity in AI
 
 All frameworks here are working documents. Controlled validation is pending across all core claims.
 
+CIP remains the primary public framework for
+inference-time identity governance.
+PAL LAB serves as the broader research and
+development environment around PAL, continuity,
+persona layers, and related governance extensions.
+
 *Full launch text and background: <docs/launch.md>*
 
 -----
 
 ## Overview
 
-PAL-based continuity framework for recalling the same person
-across changing conditions while controlling drift,
-sequence meaning, and adoption decisions.
+PAL LAB develops continuity frameworks for recalling
+the same person across changing conditions while
+controlling drift, sequence meaning, and adoption decisions.
 
 -----
 
