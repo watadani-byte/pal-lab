@@ -1,6 +1,20 @@
 # PAL LAB — Launch Text
 
-*April 2026*
+*Final version. April 2026.*
+
+-----
+
+## Short Launch Statement
+
+PAL LAB is a public research and governance initiative focused on persistence, drift, and continuity in AI systems.
+
+It began with a narrow operational problem: when a character or persona is established in one AI session, it tends to drift — across sessions, turns, and platforms. Reference images help. Prompt design helps. But neither, by itself, constitutes a governance framework.
+
+PAL (Persistent Anchor Layer) and CIP (Character Identity Protocol) are attempts to describe and govern these conditions. Neither is a finished solution. Both are working frameworks under continued development.
+
+As investigation continued, the problem widened. Persistence mechanisms that stabilize visual identity may also stabilize role, tone, and normative frame — for better or worse. That widening raised governance questions that visual continuity alone does not.
+
+PAL LAB is where those connected questions are investigated together.
 
 -----
 
@@ -80,6 +94,7 @@ The stronger a persistence mechanism may be, the more consequential its governan
 
 |Format                          |Recommended use               |
 |--------------------------------|------------------------------|
+|Short Launch Statement          |Site intro, about page        |
 |Medium Version                  |Site or fixed page description|
 |One-Sentence Definition         |Tagline, profile, bio         |
 |Bullet list                     |Feature overview, sidebar     |
