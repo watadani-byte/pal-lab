@@ -1,0 +1,47 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+PAL Lab (pal-lab)
+Originally proposed and documented by Hitoshi Watadani (2026)
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+  for any purpose, even commercially
+
+Under the following terms:
+- Attribution — You must give appropriate credit,
+  provide a link to the license, and indicate if changes were made.
+  You may do so in any reasonable manner, but not in any way
+  that suggests the licensor endorses you or your use.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/
+
+---
+
+## Scope
+
+This license applies to all files in this repository
+unless otherwise noted in a subdirectory README.
+
+If implementation specifications, schemas, or
+formal protocol definitions are added to this repository
+in the future, those materials may be placed under
+separate license terms. Any such exception will be
+explicitly noted in the relevant subdirectory.
+
+---
+
+## Priority Note
+
+The following concepts were first named and documented
+by Hitoshi Watadani in this repository or in the related
+character-identity-protocol repository:
+
+- Persistent Anchor Layer (PAL)
+- PAL Reconnected Layer (PRL)
+- The four-layer operational control model
+  described in this repository
+
+If you build on these concepts or use this terminology
+in your own work, appropriate attribution is
+requested and appreciated.
