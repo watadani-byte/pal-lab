@@ -82,10 +82,10 @@ governance/
   asset_status_policy.md  — draft / active / deprecated の条件
   change_log_policy.md    — 変更理由・記録形式・監査証跡
   trust_rank_policy.md    — canonical / working / provisional / rejected
+  keep_human.md           — Governance position: Keep Human
 
 docs/
   launch.md               — Full launch text and background
-  keep_human.md           — Governance position statement: Keep Human
 ```
 
 -----
@@ -133,23 +133,15 @@ docs/
 
 ## Keep Human
 
-PAL LAB operates under a governance position
-called Keep Human.
+PAL LAB adopts a governance-oriented position
+summarized as **Keep Human**: as AI systems become
+more capable, the human role must become more explicit
+rather than less. Human governance remains responsible
+for defining purpose, setting principles, assigning roles,
+exercising stop authority, and determining adoption
+or rejection.
 
-Keep Human holds that as AI systems become more capable,
-human governance obligations become more explicit —
-not less. Humans are not residual labor left over
-after automation. They are the origin of meaning,
-boundaries, responsibility, and stop authority.
-
-This position connects directly to the research here:
-PAL supports re-anchoring, but does not replace
-the human judgment that governs it.
-Governance layers must remain above execution layers.
-AI behavior should be explained and governed,
-not passively ratified.
-
-*See: <docs/keep_human.md>*
+*See: <governance/keep_human.md>*
 
 -----
 
