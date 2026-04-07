@@ -30,6 +30,10 @@ Inter-PAL Conflict is not the absence of continuity
 control. It is the collision of multiple
 continuity-control demands.
 
+In image workflows, this may occur when Character PAL,
+Sequence PAL, Costume PAL, Background PAL, or Style PAL
+compete for reconstruction priority.
+
 Resolution requires explicit priority decisions
 under Governance PAL, not prompt adjustment alone.
 
