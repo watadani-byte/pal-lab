@@ -130,6 +130,28 @@ docs/
 
 -----
 
+## Keep Human
+
+PAL LAB operates under a governance position
+called Keep Human.
+
+Keep Human holds that as AI systems become more capable,
+human governance obligations become more explicit —
+not less. Humans are not residual labor left over
+after automation. They are the origin of meaning,
+boundaries, responsibility, and stop authority.
+
+This position connects directly to the research here:
+PAL supports re-anchoring, but does not replace
+the human judgment that governs it.
+Governance layers must remain above execution layers.
+AI behavior should be explained and governed,
+not passively ratified.
+
+*See: <docs/keep_human.md>*
+
+-----
+
 ## How to Read This Repository
 
 Recommended reading order:
