@@ -119,7 +119,7 @@ An AI system that operates in ways that implicitly
 redefine principles — without human review or approval —
 has inverted the intended hierarchy.
 Execution has overwritten Principle.
-Principle has displaced Governance.
+Governance has been displaced by execution.
 
 Keep Human insists the order be maintained explicitly,
 not assumed.
