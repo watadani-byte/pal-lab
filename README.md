@@ -86,6 +86,7 @@ governance/
 
 docs/
   launch.md               — Full launch text and background
+  glossary.md             — Core terminology definitions
 ```
 
 -----
