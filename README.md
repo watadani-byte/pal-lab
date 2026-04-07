@@ -85,6 +85,7 @@ governance/
 
 docs/
   launch.md               — Full launch text and background
+  keep_human.md           — Governance position statement: Keep Human
 ```
 
 -----
