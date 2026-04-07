@@ -1,6 +1,6 @@
 # Keep Human
 
-*A governance-oriented position statement for PAL LAB.*
+*A governance position for human authority in AI systems.*
 
 > Keep Human is not anti-AI.
 > It is the position that, as AI systems become more capable,
@@ -87,8 +87,7 @@ on the conditions under which inference occurs.
 
 Keep Human insists on the distinction.
 Governance cannot be outsourced to prompt engineering
-without losing something essential:
-the explicit human authority to define what
+without weakening explicit human authority over what
 reconstruction conditions are acceptable.
 
 -----
@@ -268,5 +267,6 @@ is not a governance solution.
 > Keep Human is the position that humans must remain
 > the governing authority over AI systems —
 > not because AI cannot be capable,
-> but because governance requires a subject,
-> and that subject must be human.
+> but because continuity, accountability, and
+> principled operation require an explicit
+> human governor.
