@@ -4,11 +4,12 @@ PAL LAB is the working home of PAL (Persistent Anchor Layer),
 CIP (Character Identity Protocol), and related governance research.
 
 It investigates persistence, identity drift, and reconstruction
-continuity in AI systems, with particular attention to what
-governance obligations follow when persistent reference layers
-may stabilize not only visual identity, but also role, tone,
-and normative frame. All frameworks here are working documents,
-and controlled validation remains pending across all core claims.
+continuity in AI systems — and asks what governance obligations
+follow when persistent reference layers may stabilize not only
+visual identity, but role, tone, and normative frame.
+
+All frameworks here are working documents. Controlled validation
+is pending across all core claims.
 
 CIP remains the primary public framework for inference-time
 identity governance. PAL LAB serves as the broader research
