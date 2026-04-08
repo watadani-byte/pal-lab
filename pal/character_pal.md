@@ -55,10 +55,19 @@ Identity Core は最優先で保護される。
 
 ### 2. Presentation Defaults
 
+> Visual defaults such as hair, eye color, glasses,
+> and baseline body reading are handled in
+> [pal/character_base_appearance.md](character_base_appearance.md).
+> Presentation Defaults in Character PAL refer to
+> the most stable default presentation conditions
+> for recall, including expression, stance, and
+> standard calling posture.
+
 Presentation Defaults は、その人物を最も安定して呼び出せる
 標準的な見た目である。
 
 例：
+
 - 標準髪型
 - 眼鏡の有無と形状
 - 髪色
@@ -83,6 +92,7 @@ Forbidden Drift は、その人物を別類型へ崩す再解釈である。
 Character PAL はこれを明示的に抑止する。
 
 Forbidden Drift の例：
+
 - 欧米人化
 - 鼻筋強化
 - 眼窩深化
@@ -119,10 +129,10 @@ Character PAL を最優先する。
 優先順位：
 
 1. Character PAL
-2. Sequence PAL
-3. Costume PAL
-4. Background PAL
-5. Style PAL
+1. Sequence PAL
+1. Costume PAL
+1. Background PAL
+1. Style PAL
 
 ### 4. 採用画像のみを資産化する
 
