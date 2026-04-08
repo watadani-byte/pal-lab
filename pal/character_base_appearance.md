@@ -2,9 +2,9 @@
 
 ## Definition
 
-Character Base Appearance is the foundational layer
-that fixes the minimum visual constants required for
-a person to remain readable as the same individual —
+Character Base Appearance is the foundational continuity layer that fixes the minimum
+visual constants required for a person to continue to be
+read as the same individual —
 across changes in costume, background, composition,
 and sequence.
 
@@ -29,7 +29,8 @@ conditions:
 - The same person continues to be read as the same person
 - Costume changes do not trigger body reinterpretation
 - Background changes do not recode cultural reading
-- Local visual features do not invoke nearby archetypes
+- Local visual features do not trigger drift toward
+  nearby archetypes
 
 This layer is not for optimizing beauty.
 It is for stabilizing identity.
@@ -171,7 +172,8 @@ Character Base Appearance prohibits at minimum:
 - Lighter hair or eyes → westernized beauty template
 - Long limbs → exaggerated high-fashion skeleton
 - Slightly small head → non-realistic model proportion
-- Narrow waist → hard, dry Western body code
+- Narrow waist → a harder, drier Western-coded
+  body reading
 - Softly lit eyes → hazel glamour or cosmetic emphasis
 - Glasses → cold intellectual stereotype
 
