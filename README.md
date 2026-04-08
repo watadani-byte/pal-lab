@@ -52,6 +52,7 @@ declarations/
 
 pal/
   character_pal.md          — 人物同一性の固定層
+  character_base_appearance.md — 外見基底層（文化的読解基底・髪・瞳・体型バランス）
   age_layer.md              — 年齢をまたぐ同一性の安定点層
   anti_drift.md             — 禁止 drift の分類・停止条件・管理層
   sequence_pal.md           — 複数枚の意味連続性の固定層
