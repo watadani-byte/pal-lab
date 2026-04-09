@@ -10,6 +10,33 @@ Core terms used across PAL LAB documentation.
 
 -----
 
+## Re-anchoring
+
+Re-anchoring is the operation of restoring generation
+to a valid anchor state after contextual drift,
+contamination, or local overcommitment.
+
+Within PAL, re-anchoring functions as a basic
+generative operation for recovering:
+
+- character stability
+- generation continuity
+- readable coherence
+
+Re-anchoring is not a retry.
+It is a deliberate return to a verified anchor state —
+one that has been adopted, retained, and remains
+available for restoration.
+
+The conditions required for re-anchoring to be possible
+are defined in the re-anchoring principle:
+see [declarations/pal_declaration.md](../declarations/pal_declaration.md).
+
+*See also: [pal/anti_drift.md](../pal/anti_drift.md)*  
+*See also: [persona/governance_pal.md](../persona/governance_pal.md)*
+
+-----
+
 ## Inter-PAL Conflict
 
 A condition in which two or more active PAL layers
