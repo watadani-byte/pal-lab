@@ -3,9 +3,9 @@
 This file is an operational handoff for image-generation continuity work
 within the PAL LAB continuity stack.
 
-It is not a research document and is not part of the repository-level
-governance framing. It documents the active generation stack, operational
-order, prompt conventions, and evaluation principles for current work.
+It is not a research document and not part of the repository-level governance framing.
+It records the active generation stack, operational order, prompt conventions,
+and evaluation principles for current work.
 
 -----
 
@@ -37,12 +37,13 @@ The following layers are active for current generation work:
 
 -----
 
-## Important Instructions
+## Non-Negotiable Rules
 
 Do not compress this framework into a generic “character consistency prompt system.”
 
 Do not collapse Character, Costume, Background, Sequence, Protocol, and Evaluation
-into one layer. Treat them as separate but connected control layers.
+into a single layer.
+Treat them as separate but connected control layers.
 
 - Human judgment remains final.
 - Continuity is not authority.
