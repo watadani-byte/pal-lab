@@ -56,7 +56,7 @@ Treat them as separate but connected control layers.
 
 ## Operational Order
 
-For image-generation continuity work, follow this order:
+For image-generation continuity work, follow this operational order:
 
 1. Anchor / Character fixed
 1. Costume changed
