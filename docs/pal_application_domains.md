@@ -137,7 +137,7 @@ PAL asks:
 - What should be treated as the identity core, and what should remain flexible?
 - How can humans and systems evaluate whether continuity has been preserved?
 
-PAL is not a quality framework alone.
+PAL is not primarily a quality framework.
 It is a framework for describing, managing, and evaluating **continuity**.
 
 -----
