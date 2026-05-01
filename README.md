@@ -86,8 +86,10 @@ governance/
   keep_human.md           — Governance position: Keep Human
 
 docs/
-  launch.md               — Full launch text and background
-  glossary.md             — Core terminology definitions
+  launch.md                    — Full launch text and background
+  glossary.md                  — Core terminology definitions
+  pal_application_domains.md   — PAL application domains overview
+  agent_persona_pal.md         — Agent Persona PAL: continuity layer for agentic workflows
 ```
 
 -----
@@ -130,6 +132,20 @@ docs/
 
 `governance/trust_rank_policy.md` — 信頼度ランク
 （canonical / working / provisional / rejected）
+
+-----
+
+## Agent Persona PAL
+
+Agent Persona PAL is a continuity layer for AI agents operating across multiple media, tools, and workflow stages.
+
+It keeps the overall subject, purpose, role distribution, optimization limits, and acceptance criteria stable across the full workflow.
+
+Its purpose is not to give authority, autonomy, or institutional standing to an AI agent, but to prevent drift when the agent performs multi-step work.
+
+Agent Persona PAL can support broader AI governance work by defining how continuity, subject stability, and acceptance criteria are preserved across agentic workflows.
+
+*See: <docs/agent_persona_pal.md>*
 
 -----
 
