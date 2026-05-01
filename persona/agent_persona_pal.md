@@ -188,7 +188,7 @@ However, when higher-layer governance, organizational, or institutional boundari
 
 Changes to the overall purpose, role distribution, optimization limits, or acceptance / rejection criteria should be explicit and recorded.
 
-*See: [governance/change_log_policy.md](../governance/change_log_policy.md) — [governance/asset_status_policy.md](../governance/asset_status_policy.md)*
+*See: [change_log_policy.md](../governance/change_log_policy.md) — [asset_status_policy.md](../governance/asset_status_policy.md)*
 
 -----
 
