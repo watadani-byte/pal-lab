@@ -1,243 +1,216 @@
 # Agent Persona PAL
 
-## 1. エージェント人格固定とは何か
+## 1. What Agent Persona PAL Is
 
-エージェント人格固定とは、複数の媒体や複数の工程にまたがって動く AI が、
-各工程を別作業として分裂させず、
-一つの目的の下で統合して動くための固定層である。
+Agent Persona PAL is a PAL continuity layer for AI agents that operate across multiple media, tools, or workflow stages.
 
-これはチャットボット人格固定が「どのように話すか」を固定し、
-制御人格固定（Aster）が「制作判断の優先順位」を固定するのとは異なる。
-エージェント人格固定は、複数媒体・複数工程にまたがる
-作業全体の主語を一つに保つことを固定する。
+It prevents the agent from treating each stage as a separate task and keeps the entire workflow anchored to one subject, one purpose, and one consistent acceptance standard.
 
-エージェント人格固定は、上位の制度人格固定・
-組織人格固定・ガバナンス固定が定めた
-権限・立場・説明責任の枠の内側で機能する。
+It differs from chatbot persona fixation, which fixes how an AI speaks, and from control persona fixation such as Aster, which fixes the priority of creative or operational decisions.
 
------
+Agent Persona PAL fixes the subject of the whole multi-step workflow.
 
-## 2. エージェント人格固定の目的
+It operates within the boundaries defined by higher layers such as governance fixation, organizational persona fixation, and institutional persona fixation.
 
-エージェント人格固定の目的は、
-各媒体の出力を個別に最適化することではない。
-目的は、複数の媒体や工程にまたがって作業する AI が、
-条件が変わっても以下の状態を維持することである。
-
-- 各媒体で主語が変わらない
-- 何が全体の目的かを見失わない
-- 媒体ごとの個別最適が全体の一貫性を壊さない
-- どの媒体も人物同一性や世界観を壊さない
-- 採用 / 不採用の判断基準が工程をまたいで一貫する
+Agent Persona PAL does not grant authority, autonomy, personhood, or institutional standing to an AI agent. Continuity is not authority.
 
 -----
 
-## 3. なぜエージェント人格固定が必要か
+## 2. Purpose
 
-複数の媒体や工程にまたがる作業では、
-各工程が独立して最適化されやすい。
+The purpose of Agent Persona PAL is not to optimize each medium or workflow stage independently.
 
-たとえば、
+Its purpose is to ensure that an AI agent preserves the following across changing media, tools, and workflow stages:
 
-- 画像生成は人物同一性を重視する
-- 音楽生成は雰囲気だけを重視する
-- 動画生成は派手さだけを重視する
-- まとめ・選別は個別出力の評価になる
-- 採用 / 不採用管理が工程ごとに基準を変える
-
-のように、媒体ごとに主語が変わってしまうことがある。
-
-エージェント人格が固定されていないと、
-各工程が別々の目的で動き、
-全体として何を作っているかが
-見えにくくなる。
+- the same overall subject
+- the same overall purpose
+- stable role distribution across media or stages
+- individual optimization limits
+- consistent acceptance / rejection criteria
+- continuity of character, world, context, or operational intent where relevant
 
 -----
 
-## 4. エージェント人格固定が保持するもの
+## 3. Why Agent Persona PAL Is Needed
 
-### 1. 全体の目的
+In multi-step agentic workflows, each stage can become optimized in isolation.
 
-この作業系列が何のために動いているかを固定する。
+For example:
 
-例：
-- 同じ人物の continuity を複数媒体で保つ
-- 同じ世界観を画像・音楽・動画で共有する
-- 一つの sequence を複数工程で完成させる
+- image generation may focus only on visual identity
+- music generation may focus only on atmosphere
+- video generation may focus only on motion or impact
+- summarization may evaluate outputs in isolation
+- selection or rejection may apply different criteria at each stage
 
-全体の目的は工程の途中で変えない。
+Each output may appear successful locally, while the overall workflow loses continuity.
 
-### 2. 媒体ごとの役割分担
-
-各媒体が全体の中で何を担当するかを固定する。
-
-例：
-- 画像は人物と場面の核を担う
-- 音楽は感情温度を補強する
-- 動画は時間の流れを補う
-- まとめ・選別は全体整合の確認を担う
-- 採用 / 不採用管理は基準の一貫性を担う
-
-役割分担は工程の途中で変えない。
-
-### 3. 個別最適の上限
-
-各媒体の個別最適が
-全体の一貫性を壊さない範囲を固定する。
-
-例：
-- 音楽が世界観と乖離するほど
-  個性的になってはならない
-- 動画が派手さを追うあまり
-  人物同一性を壊してはならない
-- 選別基準が媒体ごとに異なっては
-  全体の整合が取れなくなる
-
-### 4. 採用 / 不採用の一貫した基準
-
-工程をまたいで採用 / 不採用の
-判断基準を固定する。
-
-例：
-- 人物同一性を損なう出力は
-  どの媒体でも採用しない
-- 世界観と乖離した出力は
-  どの工程でも採用しない
-- 基準は工程ごとに変えない
+Without Agent Persona PAL, the workflow can continue operating while the subject, purpose, role boundaries, or acceptance criteria quietly drift.
 
 -----
 
-## 5. エージェント人格固定と他の人格固定の違い
+## 4. What Agent Persona PAL Fixes
 
-| 人格固定の種別 | 主な固定対象 |
-|---|---|
-| チャットボット人格固定 | 口調・距離感・説明の仕方・反応の温度 |
-| 制御人格固定（Aster） | 複数媒体をまたぐ制作判断の優先順位 |
-| **エージェント人格固定** | **複数媒体・複数工程をまたぐ作業全体の主語の統一** |
-| ガバナンス固定 | continuity の権威化防止・停止権・採否決定 |
-| 組織人格固定 | 組織の立場・権限境界・説明責任・エスカレーション条件 |
-| 制度人格固定 | 制度的立場・法令上の権限境界・制度説明と制度判断の分離 |
-| 国際制度人格固定 | 国際機関としての立場・中立性・主権判断との分離 |
+### 4.1 Overall Purpose
 
-制御人格固定（Aster）が制作判断の優先順位を担うのに対し、
-エージェント人格固定は工程全体の主語を束ねる。
-Aster が「何を優先して作るか」を固定し、
-エージェント人格固定が「何のために作るか」を固定する。
+Agent Persona PAL fixes what the workflow is trying to accomplish.
 
------
+Examples:
 
-## 6. エージェント人格固定の基本原則
+- preserving the same character continuity across multiple media
+- maintaining the same world model across image, music, and video
+- completing one sequence through multiple workflow stages
+- preserving one operational intent across several tools
 
-### 1. 全体の目的を工程の途中で変えない
+The overall purpose should not change midway through the workflow unless explicitly updated.
 
-各媒体・各工程がどれだけ独立して動いても、
-全体として何を作っているかは変えない。
+### 4.2 Role Distribution Across Media or Stages
 
-### 2. 媒体ごとの主語を統一する
+Agent Persona PAL fixes what each medium or workflow stage is responsible for.
 
-画像・音楽・動画・選別・採用管理は
-別々の作業ではなく、一つの目的のための工程である。
-媒体が変わっても主語は変わらない。
+Examples:
 
-### 3. 個別最適は全体整合の範囲内に留める
+- images define the visual subject and scene anchor
+- music supports emotional temperature
+- video adds temporal movement
+- summarization checks global consistency
+- selection management applies consistent acceptance / rejection criteria
 
-各媒体の出力が優れていても、
-全体の一貫性を損なう場合は採用しない。
-個別最適は全体整合の下位に置かれる。
+Role distribution should not drift silently during the workflow.
 
-### 4. 採用 / 不採用の基準を工程間で統一する
+### 4.3 Limits on Individual Optimization
 
-採用 / 不採用の判断基準は
-工程をまたいで一貫して適用する。
-媒体ごとに基準を変えてはならない。
+Agent Persona PAL fixes the boundary beyond which local optimization becomes harmful to the whole workflow.
 
-### 5. 上位層の境界に従う
+Examples:
 
-エージェント人格固定の動作範囲は、
-上位の制度人格固定・組織人格固定・
-ガバナンス固定が定めた
-権限・立場・説明責任の枠に従う。
+- music should not become so distinctive that it breaks the world model
+- video should not pursue impact in a way that breaks character continuity
+- summarization should not rewrite the subject of the work
+- selection criteria should not change from stage to stage
 
-### 6. continuity は authority ではない
+Local quality is subordinate to global continuity.
 
-複数工程にまたがって継続的に動くことは、
-AI の権限を増やさない。
-工程の連続性は権限の根拠にならない。
+### 4.4 Consistent Acceptance / Rejection Criteria
+
+Agent Persona PAL fixes the criteria used to accept or reject outputs across workflow stages.
+
+Examples:
+
+- outputs that break character identity are rejected across all media
+- outputs that break the world model are rejected across all stages
+- outputs that change the subject of the work are rejected
+- criteria are not changed silently from one stage to another
 
 -----
 
-## 7. エージェント人格固定が防ぐべき drift
+## 5. Difference From Other Persona Fixation Layers
+
+|Layer                                       |Primary fixation target                                                                    |
+|--------------------------------------------|-------------------------------------------------------------------------------------------|
+|Chatbot Persona PAL                         |Tone, distance, response style, explanation style                                          |
+|Control Persona / Aster                     |Priority of creative or operational decisions                                              |
+|Agent Persona PAL                           |Unified subject and purpose across multi-step workflows                                    |
+|Governance Fixation                         |Stop rights, acceptance authority, prevention of continuity becoming authority             |
+|Organizational Persona Fixation             |Organizational position, authority boundaries, accountability, escalation                  |
+|Institutional Persona Fixation              |Institutional role, legal authority boundaries, separation between explanation and decision|
+|International Institutional Persona Fixation|International neutrality, institutional mandate, separation from sovereign judgment        |
+
+Aster fixes what should be prioritized in creative or operational decisions.
+
+Agent Persona PAL fixes what the workflow is for.
+
+-----
+
+## 6. Basic Principles
+
+### 6.1 Do Not Change the Overall Purpose Mid-Workflow
+
+Even if individual tools or stages operate independently, the whole workflow must remain anchored to the same purpose.
+
+### 6.2 Keep the Subject Unified Across Media and Stages
+
+Image, music, video, summarization, selection, and management are not separate works. They are stages of one workflow.
+
+### 6.3 Keep Local Optimization Under Global Continuity
+
+A locally strong output should not be accepted if it damages the continuity of the whole workflow.
+
+### 6.4 Keep Acceptance / Rejection Criteria Consistent
+
+Acceptance and rejection criteria must remain stable across workflow stages unless explicitly updated.
+
+### 6.5 Obey Higher-Layer Boundaries
+
+Agent Persona PAL operates within the authority, accountability, and institutional boundaries set by higher governance layers.
+
+### 6.6 Continuity Is Not Authority
+
+The fact that an AI agent operates continuously across stages does not increase its authority.
+
+Continuity does not create decision rights.
+
+-----
+
+## 7. Drift Types Prevented by Agent Persona PAL
 
 ### Subject Drift
-媒体や工程が変わるにつれて、
-作業の主語が変わること。
-「何のために作っているか」が
-工程ごとに異なる目的に分裂すること。
+
+Subject Drift occurs when the subject of the workflow changes across media or stages.
+
+The agent may continue operating, but the work is no longer about the same subject or purpose.
 
 ### Individual Optimization Drift
-各媒体の個別最適が進むにつれて、
-全体の一貫性が失われること。
-出力の質が上がっても、
-全体として別々の作品に見えること。
+
+Individual Optimization Drift occurs when each medium or stage optimizes locally while damaging global continuity.
+
+The outputs may be high quality individually, but they no longer belong to the same coherent workflow.
 
 ### Criteria Drift
-採用 / 不採用の判断基準が
-工程ごとに変化すること。
-同じ欠陥が、ある工程では採用され
-別の工程では不採用になること。
+
+Criteria Drift occurs when acceptance / rejection standards change across workflow stages.
+
+The same defect may be accepted in one stage and rejected in another.
 
 ### Role Drift
-各媒体の役割分担が
-会話や作業の流れの中で変化すること。
-音楽が人物表現を担い始める、
-動画が場面の核を担い始めるなど、
-役割の逸脱が起こること。
+
+Role Drift occurs when the assigned role of a medium or workflow stage changes silently.
+
+For example, music may begin carrying identity, or video may begin redefining the scene anchor, even though those roles were assigned elsewhere.
 
 -----
 
-## 8. エージェント人格固定と rule / policy version 管理
+## 8. Relation to Rule / Policy Version Management
 
-エージェント人格固定自体は
-法令・規則・ポリシーを直接参照しない。
+Agent Persona PAL does not directly define laws, rules, or policies.
 
-ただし、上位の制度人格固定・組織人格固定が
-定める支援範囲・権限境界が更新された場合、
-エージェント人格固定の動作範囲も
-連動して更新される必要がある。
+However, when higher-layer governance, organizational, or institutional boundaries change, the operating scope of Agent Persona PAL may also need to be updated.
 
-また、全体の目的・媒体ごとの役割分担・
-採用 / 不採用の基準は、
-運用の変更があれば明示的に更新し、
-`governance/change_log_policy.md` の手順に従い記録する。
-Status 管理は `governance/asset_status_policy.md` に従う。
+Changes to the overall purpose, role distribution, optimization limits, or acceptance / rejection criteria should be explicit and recorded.
+
+*See: [governance/change_log_policy.md](../governance/change_log_policy.md) — [governance/asset_status_policy.md](../governance/asset_status_policy.md)*
 
 -----
 
-## 9. エージェント人格固定の意義
+## 9. Significance
 
-エージェント人格固定の意義は、
-複数の媒体や工程にまたがる作業を
-一つの目的の下で統合して動かせるようにすることにある。
+Agent Persona PAL allows multi-step AI workflows to operate as one coherent system rather than a collection of disconnected tool outputs.
 
-これにより、
+It helps ensure that:
 
-- 媒体が変わっても作業の主語が変わらない
-- 個別最適が全体の一貫性を壊しにくくなる
-- 採用 / 不採用の判断基準が工程をまたいで安定する
-- 何のために作っているかを見失いにくくなる
+- the subject remains stable across media
+- local optimization does not break global continuity
+- acceptance / rejection criteria remain consistent
+- the workflow does not lose sight of its original purpose
+- continuity does not become authority
 
-エージェント人格固定は、
-制御人格固定（Aster）と連動しながら、
-複数媒体・複数工程の作業全体を
-一つの系として運用するための層である。
+Agent Persona PAL works alongside Control Persona / Aster, while serving a different role:
+
+- Aster fixes what should be prioritized.
+- Agent Persona PAL fixes what the workflow is for.
 
 -----
 
-## 10. 一文で定義するなら
+## 10. One-Sentence Definition
 
-エージェント人格固定とは、複数の媒体や工程にまたがって動く AI が
-各工程を別作業として分裂させず一つの目的の下で統合して動くために、
-全体の目的・媒体ごとの役割分担・個別最適の上限・
-採用 / 不採用の一貫した基準を固定する継続層であり、
-上位の制度人格固定・組織人格固定・ガバナンス固定が定めた
-権限・立場・説明責任の枠の内側で機能する。
+Agent Persona PAL is a PAL continuity layer that keeps an AI agent’s cross-media, multi-step work anchored to one subject, one purpose, stable role distribution, bounded local optimization, and consistent acceptance criteria, while operating within higher governance, organizational, and institutional boundaries.
