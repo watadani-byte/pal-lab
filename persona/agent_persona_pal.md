@@ -106,15 +106,15 @@ Examples:
 
 ## 5. Difference From Other Persona Fixation Layers
 
-|Layer                                       |Primary fixation target                                                                    |
-|--------------------------------------------|-------------------------------------------------------------------------------------------|
-|Chatbot Persona PAL                         |Tone, distance, response style, explanation style                                          |
-|Control Persona / Aster                     |Priority of creative or operational decisions                                              |
-|Agent Persona PAL                           |Unified subject and purpose across multi-step workflows                                    |
-|Governance Fixation                         |Stop rights, acceptance authority, prevention of continuity becoming authority             |
-|Organizational Persona Fixation             |Organizational position, authority boundaries, accountability, escalation                  |
-|Institutional Persona Fixation              |Institutional role, legal authority boundaries, separation between explanation and decision|
-|International Institutional Persona Fixation|International neutrality, institutional mandate, separation from sovereign judgment        |
+| Layer | Primary fixation target |
+|---|---|
+| Chatbot Persona PAL | Tone, distance, response style, explanation style |
+| Control Persona / Aster | Priority of creative or operational decisions |
+| Agent Persona PAL | Unified subject and purpose across multi-step workflows |
+| Governance Fixation | Stop rights, acceptance authority, prevention of continuity becoming authority |
+| Organizational Persona Fixation | Organizational position, authority boundaries, accountability, escalation |
+| Institutional Persona Fixation | Institutional role, legal authority boundaries, separation between explanation and decision |
+| International Institutional Persona Fixation | International neutrality, institutional mandate, separation from sovereign judgment |
 
 Aster fixes what should be prioritized in creative or operational decisions.
 
