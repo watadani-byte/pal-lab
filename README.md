@@ -89,7 +89,6 @@ docs/
   launch.md                    — Full launch text and background
   glossary.md                  — Core terminology definitions
   pal_application_domains.md   — PAL application domains overview
-  agent_persona_pal.md         — Agent Persona PAL: continuity layer for agentic workflows
 ```
 
 -----
@@ -145,7 +144,7 @@ Its purpose is not to give authority, autonomy, or institutional standing to an 
 
 Agent Persona PAL can support broader AI governance work by defining how continuity, subject stability, and acceptance criteria are preserved across agentic workflows.
 
-*See: <docs/agent_persona_pal.md>*
+*See: <persona/agent_persona_pal.md>*
 
 -----
 
