@@ -32,9 +32,6 @@ The conditions required for re-anchoring to be possible
 are defined in the re-anchoring principle:
 see [declarations/pal_declaration.md](../declarations/pal_declaration.md).
 
-*See also: [pal/anti_drift.md](../pal/anti_drift.md)*  
-*See also: [persona/governance_pal.md](../persona/governance_pal.md)*
-
 ### Expression-Based Re-anchoring
 
 Expression-based re-anchoring is a specific operational case of re-anchoring.
@@ -55,7 +52,10 @@ Where:
 
 This principle can be summarized as:
 
-Express, then re-anchor.
+**Express, then re-anchor.**
+
+*See also: [pal/anti_drift.md](../pal/anti_drift.md)*  
+*See also: [persona/governance_pal.md](../persona/governance_pal.md)*
 
 -----
 
