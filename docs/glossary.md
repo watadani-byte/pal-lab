@@ -35,6 +35,28 @@ see [declarations/pal_declaration.md](../declarations/pal_declaration.md).
 *See also: [pal/anti_drift.md](../pal/anti_drift.md)*  
 *See also: [persona/governance_pal.md](../persona/governance_pal.md)*
 
+### Expression-Based Re-anchoring
+
+Expression-based re-anchoring is a specific operational case of re-anchoring.
+
+When emotional expression, motion, stylization, lighting, camera effects, costume changes, age shifts, or temporal variation temporarily deform a character state, PAL does not treat the expression itself as the failure.
+
+The failure occurs when the system cannot return from the expressive state to the verified baseline anchor.
+
+Structure:
+
+A → A(X) → Re-anchor → A
+
+Where:
+
+- A = baseline identity
+- X = expression or transformation variable
+- A(X) = temporary expressive state
+
+This principle can be summarized as:
+
+Express, then re-anchor.
+
 -----
 
 ## Inter-PAL Conflict
