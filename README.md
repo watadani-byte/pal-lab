@@ -191,6 +191,7 @@ This includes:
   the `persona/` directory
 - the re-anchoring principle documented in
   `declarations/pal_declaration.md`
+- expression-based re-anchoring as an operational extension of PAL re-anchoring
 
 If you build on these concepts or use this terminology
 in your own work, appropriate attribution to this
